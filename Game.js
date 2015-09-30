@@ -9,6 +9,7 @@ function Game()
 	goal = new Goal();
 	initialiseCanvas();
 
+	// Not clear what this variable means
 	this.m_hasHitGameOver = false;
 
 	// 1 = up "keycode = 87"
@@ -18,6 +19,8 @@ function Game()
 }
 Game.prototype.keyInputUp = function(p_keyListener)
 {
+	// Not clear what the value given means
+	// N could possible mean North as in Up 
 	player.direction = 'N';
 }
 Game.prototype.keyInputDown = function(p_keyListener)
